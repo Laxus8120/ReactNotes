@@ -6,7 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id = "root"></div>
 </body>
-<script></script>
-</html>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel">
+const App = () =>{ 
+    return (<div><h1> Welcome</h1></div>); // Now, this is a React Component
+    }
+    const rootNode = document.getElementById('root');
+    const root = ReactDOM.createRoot(rootNode);
+    root.render(<App/>);
+</script>
+</html> 
