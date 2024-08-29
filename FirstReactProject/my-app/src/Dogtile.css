@@ -1,0 +1,14 @@
+.first , .second {
+    width: 400px;
+    height: 400px;
+}
+
+.Dogtile {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
